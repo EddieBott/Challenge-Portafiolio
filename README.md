@@ -1,23 +1,26 @@
-# Challenge ONE | Front End -  Portafolio
+# Portafolio Personal
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
-</p>
+Este es mi portafolio personal, creado para mostrar mis habilidades como desarrollador web.
 
+## Tecnologías utilizadas
 
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
----
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
+* HTML
+* CSS
+* JavaScript
 
-### Analisando el repositorio!
----
-### Este repositorio base es una sugerencia inicial, en caso de que aún no tengas un diseño que refleje tu estilo y personalidad. Siéntete libre de modificar tu portafolio como desees, aquí encontrarás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹script.js: Documento vacío dónde puedes desarrollar tu lógica para validar el formulário, ESTA VALIDACIÓN ES CONSIDERADA UN DESAFÍO EXTRA POR LO QUE NO ES OBLIGATÓRIA SU IMPLEMENTACIÓN.
+## Uso
 
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
-</p>
+1. Abre el archivo `index.html` en tu navegador web.
+
+## Características
+
+* Diseño responsivo: El sitio web se adapta a diferentes tamaños de pantalla.
+* Animaciones: Se utilizan animaciones CSS para mejorar la experiencia del usuario.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias para mejorar el proyecto, por favor crea un issue o un pull request.
+
+## Autor
+
+* Eddison Iturra - eddisoniturrac@gmail.ocm - https://github.com/EddieBott
