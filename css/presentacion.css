@@ -1,0 +1,71 @@
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+.presentacion {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .1rem;
+    padding: 3%;
+    padding-left: 1rem;
+    width: 92%;
+}
+
+.presentacion__titulo{
+    font-family: 'Raleway', bold;
+    color: var(--color-secundario);
+    font-size: 3.25rem;
+}
+
+.presentacion__subtitulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.375rem;
+    color: var(--color-secundario);
+}
+
+.redes {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-left: 0;
+}
+
+.presentacion__foto{
+    width: 30%;
+}
+
+
+@media (max-width: 768px){
+    .presentacion__titulo{
+        font-size: 1.375rem;
+    }
+    .presentacion__subtitulo{
+        font-size: 1rem;
+    }
+    .redes {
+        gap: 1rem;
+    }
+    .presentacion__foto{
+        width: 20%;
+    }
+}
+
+@media (max-width: 360px){
+    .presentacion {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+
+    .presentacion__foto{
+        width: 40%;
+    }
+
+    .presentacion__subtitulo{
+        font-size: 0.875rem;
+    }
+
+    .redes {
+        gap: 0.875rem;
+    }
+}

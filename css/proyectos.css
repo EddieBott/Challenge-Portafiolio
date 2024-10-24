@@ -1,0 +1,103 @@
+/*------------------------------ Sección de Proyectos --------------------------------*/
+
+.proyectos__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', bold;
+    color: var(--color-secundario);
+    font-size: 2rem;
+}
+
+.proyecto__encriptador{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.proyecto__img{
+    width: 55%;
+    padding: 3%;
+}
+
+.proyecto__titulo{
+    font-size: 1.375rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-secundario);
+    font-weight: bold;
+    margin: 0;
+}
+
+.proyecto__texto{
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-secundario);
+    font-weight: normal;
+    margin: 0;
+}
+
+.proyecto__boton--repo{
+    padding: .8rem;
+    color: var(--color-cuaternario);
+    background-color: var(--color-de-fondo);
+    border: 1px solid var(--color-cuaternario);
+    cursor: pointer;
+    gap: 1rem;
+    padding-right: 1.2rem;
+    font-size: 1rem;
+}
+
+.proyecto__boton--demo{
+    padding: .8rem;
+    color: var(--color-de-fondo);
+    background-color: var(--color-cuaternario);
+    border: 1px solid var(--color-cuaternario);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.proyecto__boton--repo:hover{
+    color: var(--color-terciario);
+    background-color: var(--color-cuaternario);
+    border-color: black;
+}
+
+.proyecto__boton--demo:hover{
+    color: var(--color-cuaternario);
+    background-color: var(--color-terciario);
+    border-color: var(--color-cuaternario);
+ }
+
+@media (max-width: 768px){
+    .proyectos__titulo{
+        font-size: 1.375rem;
+    }
+
+    .proyecto__encriptador{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3%
+    }
+
+    .proyecto__img{
+        justify-content: center;
+         width: 90%;
+    }
+
+    .proyecto__titulo{
+        font-size: 1rem;
+    }
+
+    .proyecto__texto{
+        font-size: 0.875rem;
+    }
+
+    .proyecto__boton--repo{
+        padding: .5rem;
+        font-size: 0.875rem;
+    }
+    
+    .proyecto__boton--demo{
+        padding: .5rem;
+        font-size: 0.875rem;
+    }
+}

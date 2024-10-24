@@ -1,0 +1,32 @@
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+
+.sobre-mi{
+    background-color: var(--color-terciario);
+    padding: 3%;
+}
+
+.sobre-mi__titulo{
+    font-family: 'Raleway' bold;
+    color: var(--color-secundario);
+    font-size: 2rem;
+}
+
+.sobre-mi__texto{
+    font-family: 'Raleway' sans-serif;
+    color: var(--color-secundario);
+    font-size: 1rem;
+}
+
+@media (max-width: 768px){
+    .sobre-mi__titulo{
+        font-size: 1.375;
+    }
+}
+.sobre-mi__titulo{
+    font-size: 1.375rem;
+}
+
+.sobre-mi__texto{
+    font-size: 0.875rem;
+}
+
